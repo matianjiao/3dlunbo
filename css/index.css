@@ -1,0 +1,67 @@
+body{
+	margin: 0px;
+	height: 0px;
+	font-family: "微软雅黑";
+}
+.changjing{
+	width: 1300px;
+	height: 500px;
+	position: relative;
+	margin: 20px auto;
+	perspective:500px;
+	/*层级*/
+	-webkit-transform-style:preserve-3d;
+	/*-webkit-transition:all 2s ease;*/
+}
+.xiao{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-150px;
+	margin-left: -200px;
+	border-radius: 5px;
+	font-size: 3em;
+	color: purple;
+	text-align: center;
+	line-height: 300px;
+	box-shadow: 1px 2px 15px #2f2f2f;
+	background-color: rgba(200,13,203,0.5);
+	-webkit-transition:all 1s ease;
+}
+.xiao0{
+	background:center center url("../image/1.jpg"); 
+}
+.xiao1{
+	background:center center url("../image/2.jpg"); 
+}
+.xiao2{
+	background:center center url("../image/3.jpg"); 
+}
+.xiao3{
+	background-size:cover; 
+	background-image:url("../image/4.jpg"); 
+}
+.xiao4{
+	background:center top url("../image/5.jpg"); 
+}
+/*.xiao1{
+	z-index: 3;
+}
+.xiao2{
+	z-index: 2;
+	-webkit-transform: translate3d(300px,0,-100px);
+}
+.xiao3{
+	z-index: 2;
+	-webkit-transform: translate3d(-300px,0,-100px);
+}
+.xiao4{
+	z-index: 1;
+	-webkit-transform: translate3d(650px,0,-200px);
+}
+.xiao5{
+	z-index: 1;
+	-webkit-transform: translate3d(-650px,0,-200px);
+}*/
